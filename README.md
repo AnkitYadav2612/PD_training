@@ -49,6 +49,11 @@ Items done on day1:
 
 ![image](https://github.com/user-attachments/assets/ac1e0246-fcf3-4831-86ee-efb9fbfe5448)
 
+2) Git clone the vsdstdcelldesign
+![image](https://github.com/user-attachments/assets/31fcfba4-bd51-415b-8a5d-002efd8336bb)
+
+
+
 
 
 
