@@ -33,4 +33,21 @@ Items done on day1:
 7) Also reviewed reports (1-yosys_4.stat.rpt from which we found the flop ratio, 2-opensta.timing.rpt,i.e, the timing file)
 ![image](https://github.com/user-attachments/assets/9a57bc54-97ed-41c6-9518-7d1093425b2e)
 
+# Flop ratio: number of d flops/ total no of cells = 1613/14876 = 0.0108429 = 10.8429 %
+![image](https://github.com/user-attachments/assets/2fff59e5-6d97-495d-85fa-6496ee1f7691)
+
+
 # Day2
+
+
+
+
+
+
+# Day3
+1) Change the floorplan variable on the fly making it 1 to 2 and viewing the results:
+
+
+
+
+
