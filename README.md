@@ -47,6 +47,7 @@ Items done on day1:
 # Day3
 1) Change the floorplan variable on the fly making it 1 to 2 and viewing the results:
 
+![image](https://github.com/user-attachments/assets/ac1e0246-fcf3-4831-86ee-efb9fbfe5448)
 
 
 
