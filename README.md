@@ -76,6 +76,12 @@ Physical Verification: This includes Design Rule Checking (DRC), Layout vs. Sche
 2) Git clone the vsdstdcelldesign
 ![image](https://github.com/user-attachments/assets/31fcfba4-bd51-415b-8a5d-002efd8336bb)
 
+3) Opening the inverter layout in Magic 
+![image](https://github.com/user-attachments/assets/d9646d75-9d67-412c-90c2-7cb370485650)
+
+![image](https://github.com/user-attachments/assets/aa64b450-ebf4-4222-a76c-3b4a792f474b)
+
+
 
 
 
