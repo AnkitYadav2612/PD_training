@@ -95,6 +95,24 @@ sky130_inv.txt file:
 ![image](https://github.com/user-attachments/assets/aebb8c7b-3ecf-4470-b4bb-8689b0f23c72)
 ![image](https://github.com/user-attachments/assets/789bfcd3-ee17-4f74-8c9b-93b743623da7)
 
+7) Transient analysis of inverter:
+Changes in spice file
+
+![image](https://github.com/user-attachments/assets/38029685-c909-45fa-a1b3-3e818a6bfd2b)
+
+![image](https://github.com/user-attachments/assets/34938e48-d113-443d-8391-150d7485cc65)
+
+![image](https://github.com/user-attachments/assets/beecdb39-3f6d-4dba-a850-fccb187f439d)
+
+# Rise transition time calculation: 80% of 3.3V- 20% of 3.3V of output waveform on rising edge = 2.24557e-09 - 2.18201e-09 = 0.06356e-09
+# Fall transition time calculation: 20% of 3.3V - 80% of 3.3V of output waveform on falling edge= 4.09476e-09 - 4.04216e-09 = 0.04216e-09
+
+# Cell delay calculation
+![image](https://github.com/user-attachments/assets/b52b0e9c-e990-4895-8509-4e44e5e94adf)
+
+# Cell rise delay: 50% of output waveform on rising edge - 50% of input waveform on rising edge = 2.21103e-09 - 2.14926e-09 = 0.06177e-09
+
+# Cell fall delay: 50% of output waveform on falling edge - 50% of input waveform on falling edge = 4.07721e-09 - 4.05e-09 = 0.02721
 
 
 
