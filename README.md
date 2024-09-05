@@ -81,6 +81,20 @@ Physical Verification: This includes Design Rule Checking (DRC), Layout vs. Sche
 
 ![image](https://github.com/user-attachments/assets/aa64b450-ebf4-4222-a76c-3b4a792f474b)
 
+4) Selecting the complete connection in Magic by pressing 's' button three times:
+![image](https://github.com/user-attachments/assets/a9238f83-fa0c-4eea-9ed5-c426096cc521)
+
+5) Command to extract all parametrs of this inverter using Magic: 'extract all'
+sky130_inv.txt file:
+
+![image](https://github.com/user-attachments/assets/9b8cb3d6-03a6-4d85-8e22-0776265be19c)
+
+6) Command to extract spice modal of this inverter:
+
+'ext2spice' is the command
+![image](https://github.com/user-attachments/assets/aebb8c7b-3ecf-4470-b4bb-8689b0f23c72)
+![image](https://github.com/user-attachments/assets/789bfcd3-ee17-4f74-8c9b-93b743623da7)
+
 
 
 
