@@ -114,8 +114,16 @@ Changes in spice file
 
 # Cell fall delay: 50% of output waveform on falling edge - 50% of input waveform on falling edge = 4.07721e-09 - 4.05e-09 = 0.02721
 
+8) SkyWater SKY130 PDK’s documentation
 
+![image](https://github.com/user-attachments/assets/c8f6e4ca-2952-4cbf-96ca-d6fd014380ae)
 
+9) Visualize net.mag files in Magic
+Command to invoke Magic: magic -d XR
+
+![image](https://github.com/user-attachments/assets/d370080a-744a-42a5-832a-99c12a4a9893)
+
+![image](https://github.com/user-attachments/assets/228eeca1-cd3e-4d31-a9c5-7439399e8f80)
 
 
 
