@@ -150,13 +150,17 @@ Adding a box and clicking on metal3 with middle mouse button or hover over the m
 
 15) Lab exercise to implement poly resistor spacing to diff and tap
 ![image](https://github.com/user-attachments/assets/91e113cc-81f9-4f56-9aa4-7c40d2881ee0)
+
 Move the curser before pressing c to make sure that they are placed at that location.
+
 ![image](https://github.com/user-attachments/assets/523398db-74a7-4da1-a1df-208863dbdbec)
 
 Added a new layer by clicking mouse center
+
 ![image](https://github.com/user-attachments/assets/fed462f8-c411-4799-8b11-18a328b97961)
 
 Total drc gone to 46 now, also drc why helps in identifying the drc violations,
+
 ![image](https://github.com/user-attachments/assets/155fde6a-a956-474f-94c0-b79675c342d7)
 
 16) DRC error as geometrical construct
