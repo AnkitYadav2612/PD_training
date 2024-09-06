@@ -125,5 +125,48 @@ Command to invoke Magic: magic -d XR
 
 ![image](https://github.com/user-attachments/assets/228eeca1-cd3e-4d31-a9c5-7439399e8f80)
 
+10) Check DRC voilations:
 
+![image](https://github.com/user-attachments/assets/1a373a97-f960-4aa8-a526-4de92605fdb1)
 
+Select a box and then type drc why in other panel to check the reason of that drc
+
+![image](https://github.com/user-attachments/assets/c4ed7fb4-e9b4-4e91-a974-a0b93d6508e9)
+
+Adding a box and clicking on metal3 with middle mouse button or hover over the metal3 and press p button to get the rectangle shape added in metal3. Both methods tried, top metal3 box with middle button in mouse and bottom one with pressing p key.
+![image](https://github.com/user-attachments/assets/419caab4-e66b-415d-bdb8-caf8e4ac0ebf)
+
+![image](https://github.com/user-attachments/assets/0751cb25-ebfa-4d0e-877c-fde7ea9dd581)
+
+12) Closed and opened the magic again and checked the drc again. Checked the via issue drc but via is not seen.
+![image](https://github.com/user-attachments/assets/8ce69b3b-218d-41d9-b931-f13e0214a4c6)
+
+13) Error in the distance between the metal is identified as shown here:
+![image](https://github.com/user-attachments/assets/3b737c56-0618-4ab9-bd56-a903eb4724d8)
+
+14) The command “feed clear” or “feedback clear” clears the earlier selections
+![image](https://github.com/user-attachments/assets/731e77bf-c535-4654-8044-10cb2bd31fe5)
+![image](https://github.com/user-attachments/assets/6e982d06-23e8-44c0-b0f1-6b2125b9d5ee)
+
+15) Lab exercise to implement poly resistor spacing to diff and tap
+![image](https://github.com/user-attachments/assets/91e113cc-81f9-4f56-9aa4-7c40d2881ee0)
+Move the curser before pressing c to make sure that they are placed at that location.
+![image](https://github.com/user-attachments/assets/523398db-74a7-4da1-a1df-208863dbdbec)
+
+Added a new layer by clicking mouse center
+![image](https://github.com/user-attachments/assets/fed462f8-c411-4799-8b11-18a328b97961)
+
+Total drc gone to 46 now, also drc why helps in identifying the drc violations,
+![image](https://github.com/user-attachments/assets/155fde6a-a956-474f-94c0-b79675c342d7)
+
+16) DRC error as geometrical construct
+
+![image](https://github.com/user-attachments/assets/60d36873-1c43-4509-a14a-fc2974da5866)
+
+Correcting the error by changing sky130.tech file
+
+![image](https://github.com/user-attachments/assets/c7d934db-0fcd-4bc8-869d-109b52c74003)
+![image](https://github.com/user-attachments/assets/06cf63f9-1e2e-4b64-a306-568c2b89d6f6)
+
+![image](https://github.com/user-attachments/assets/c6ffe5f3-7840-4b6d-aae0-32acc8d385e3)
+![image](https://github.com/user-attachments/assets/de56f562-4a5d-4e90-bc58-1550cb102e7f)
