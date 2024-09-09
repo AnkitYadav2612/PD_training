@@ -174,3 +174,52 @@ Correcting the error by changing sky130.tech file
 
 ![image](https://github.com/user-attachments/assets/c6ffe5f3-7840-4b6d-aae0-32acc8d385e3)
 ![image](https://github.com/user-attachments/assets/de56f562-4a5d-4e90-bc58-1550cb102e7f)
+
+# Day4
+
+1) Checking tracks info:
+![image](https://github.com/user-attachments/assets/67471c35-7340-4d0d-9115-760e8a1b058a)
+
+2) Enabling the grid info:
+
+![image](https://github.com/user-attachments/assets/e08b2a22-2aed-4f9d-a599-5f312a45db6c)
+
+![image](https://github.com/user-attachments/assets/be1b391c-9b3a-421c-b98d-5613c4247368)
+
+3) Converting Magic layout to std cell lef
+
+first defining port definition and type:
+
+![image](https://github.com/user-attachments/assets/175b6f54-bead-4e38-9f44-44ffa778b5f9)
+
+Saving the mag file to a custom/user defined name using 'save' command:
+![image](https://github.com/user-attachments/assets/7f0b677a-acf7-4347-a46c-a906156771a7)
+
+Extracing a lef file:
+
+![image](https://github.com/user-attachments/assets/8a09dca9-d88c-4a2d-8a37-49395f9b9a90)
+![image](https://github.com/user-attachments/assets/f9b8ef4d-85cc-4f9b-9411-4fa99fe1c440)
+![image](https://github.com/user-attachments/assets/d13eab23-c99a-41b5-ab97-3c98ea0c17da)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
