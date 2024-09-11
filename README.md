@@ -207,10 +207,19 @@ b) modify the config.tcl
 
 ![image](https://github.com/user-attachments/assets/d96d13e3-719a-4dcf-ba2f-4497fdcb3ab7)
 
+Fixing slack/timing violations:
+![image](https://github.com/user-attachments/assets/3f41f445-5c8d-491a-a8fc-9c038db04a6d)
 
+Checking the variables values and setting them to 1:
 
+![image](https://github.com/user-attachments/assets/2dfe68dd-8cf4-47d2-8cf6-a41ba91f8d34)
 
+![image](https://github.com/user-attachments/assets/894d231a-a970-4bb3-a926-e06899e53546)
 
+After setting default "SYNTH_STRATEGY" to "AREA 1" |"DELAY 1" results are:
+
+![image](https://github.com/user-attachments/assets/377aa6e6-7845-4ab2-aee2-2c3173b51ed9)
+![image](https://github.com/user-attachments/assets/9d4323d3-a23b-4c56-a92d-b674b8b3663b)
 
 
 
