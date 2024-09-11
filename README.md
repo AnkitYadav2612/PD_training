@@ -201,6 +201,11 @@ Extracing a lef file:
 ![image](https://github.com/user-attachments/assets/f9b8ef4d-85cc-4f9b-9411-4fa99fe1c440)
 ![image](https://github.com/user-attachments/assets/d13eab23-c99a-41b5-ab97-3c98ea0c17da)
 
+Running the OpenLane flow using the defined custom inverter:
+a) First copy the generated lef, libs in ...../designs/picorv32a/src/ directory
+b) modify the config.tcl
+
+![image](https://github.com/user-attachments/assets/d96d13e3-719a-4dcf-ba2f-4497fdcb3ab7)
 
 
 
