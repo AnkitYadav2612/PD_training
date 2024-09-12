@@ -221,6 +221,14 @@ After setting default "SYNTH_STRATEGY" to "AREA 1" |"DELAY 1" results are:
 ![image](https://github.com/user-attachments/assets/377aa6e6-7845-4ab2-aee2-2c3173b51ed9)
 ![image](https://github.com/user-attachments/assets/9d4323d3-a23b-4c56-a92d-b674b8b3663b)
 
+Visualizing our custom cell 'sky130_vsdinv' after placement:
+
+![image](https://github.com/user-attachments/assets/a87f99c8-ad4d-410f-ae44-9ac0d643712b)
+
+Slack violation fixed pre CTS:
+![image](https://github.com/user-attachments/assets/a23b73de-53c1-4ece-856a-fff9a67bd2a9)
+
+# CTS
 
 
 
