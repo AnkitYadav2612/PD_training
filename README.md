@@ -233,6 +233,13 @@ run_cts command for running CTS:
 
 ![image](https://github.com/user-attachments/assets/9f449653-2700-4e75-9c03-ad74a7e5cd88)
 
+Checking timing again after real clocks in openroad:
+command used: set_propagated_clock [all_clocks]
+
+Slack is positive
+
+![image](https://github.com/user-attachments/assets/57176e7c-dbb9-4152-a2af-514d44cd0bd6)
+
 
 
 
