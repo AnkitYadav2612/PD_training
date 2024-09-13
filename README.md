@@ -291,6 +291,16 @@ Slack is positive
 
 "run_routing" command is used for routing
 
+1 violation after routing
+
+![image](https://github.com/user-attachments/assets/0fb36976-9af7-4ed3-b7e6-bcb4fc9ab5aa)
+![image](https://github.com/user-attachments/assets/f38b5f2b-0684-4b46-a8d6-e64a5446a4fc)
+
+Results:
+![image](https://github.com/user-attachments/assets/b97f700d-f0d3-4d6b-bece-53074a369dee)
+
+Violations:
+![image](https://github.com/user-attachments/assets/a69a260f-7266-4925-8a0d-3f3ffaea27bb)
 
 
 
