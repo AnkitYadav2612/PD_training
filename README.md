@@ -229,6 +229,9 @@ Slack violation fixed pre CTS:
 ![image](https://github.com/user-attachments/assets/a23b73de-53c1-4ece-856a-fff9a67bd2a9)
 
 # CTS
+run_cts command for running CTS:
+
+![image](https://github.com/user-attachments/assets/9f449653-2700-4e75-9c03-ad74a7e5cd88)
 
 
 
