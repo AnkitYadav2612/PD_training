@@ -65,7 +65,54 @@ Power Analysis: Power consumption analysis is done to ensure that the chip meets
 Signal Integrity (SI) Analysis: Signal integrity analysis ensures that issues like crosstalk and noise do not affect the design's functionality. If necessary, design adjustments are made to mitigate these issues.
 Physical Verification: This includes Design Rule Checking (DRC), Layout vs. Schematic (LVS) checks, and Antenna Rule Checking (ARC) to ensure that the physical layout is correct and manufacturable.
 
+Floor planning using OpenLane
 
+i. The stage after synthesis is floor planning
+ii. Standard cells placement happens in placement stage
+iii. Went inside the folder for configuration and checked the README.md
+
+![image](https://github.com/user-attachments/assets/b5902ca0-d581-4b6d-a7aa-f3ad88dd2c72)
+![image](https://github.com/user-attachments/assets/35bea51c-e13d-4694-995a-b13d0e0eea90)
+![image](https://github.com/user-attachments/assets/e29b24f6-fb9e-4355-8251-b0b0a40b60b2)
+
+Run the floorplan (run_floorplan)
+
+![image](https://github.com/user-attachments/assets/8f874fd7-6008-4870-a74c-1b3f9298e106)
+![image](https://github.com/user-attachments/assets/9ba4c788-e299-489b-bc82-93fdc722e42c)
+
+Review the floorplan results
+![image](https://github.com/user-attachments/assets/bf3bb1a7-d988-4537-a21e-815ce385f7ca)
+![image](https://github.com/user-attachments/assets/815dee58-c864-4585-a8df-f35f5d9f0f9c)
+
+Found DIE AREA from DEF file (DB unit 1000 so to get actual die area in micron, divide the reported DIEAREA value by 1000)
+![image](https://github.com/user-attachments/assets/4627d56e-9974-4198-bf33-e0df7052044f)
+
+# Die Area from DEF file = (660685/1000) * (671405/1000) = 660.685 * 671.405 = 443587.21 sq microns
+
+# Using Magic tool to view the created the DEF
+![image](https://github.com/user-attachments/assets/f1bbda65-b739-43a4-9f66-7eca29a70142)
+
+As seen all the instances in lower left. Tap cells diagonally equidistant and all pins random but equidistant as FP_IO_MODE is set to 1.
+
+Querying attributes of a decap:
+![image](https://github.com/user-attachments/assets/4fd8a118-e7e9-4b1d-9bb0-4bd0820dd413)
+
+# PLACEMENT
+
+Till now, we only placed the Macros/ IPs along with IO ports. We did not place the standard cells. The idea is to take library information of cells in the design to implement the netlist and come up with an optimal placement which could possibly pass timing. The instances are placed according to the netlist on the design instances close to the pins are placed near the IO pads.
+
+If there are hard paths then placement is performed and then based on wireload estimations cap is calculated and if slew threshold is not met buffers are added to regenerate the signals and help with signal integrity.
+
+To do this, we do placement. Placement is of two types:
+
+Global placement : Coarse placement and no legalizations considered
+Detailed placement: legalizations are done (for example, where instances are placed according to standard cell rows.)
+To run placement, the command is run_placement
+
+![image](https://github.com/user-attachments/assets/493d52d2-dac7-4f5c-be76-812158da5735)
+Placed layout window of magic:
+
+![image](https://github.com/user-attachments/assets/58b635be-eb4e-4196-a8f9-018856da4c67)
 
 
 # Day3
