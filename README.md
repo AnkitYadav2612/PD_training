@@ -240,9 +240,9 @@ Slack is positive
 
 ![image](https://github.com/user-attachments/assets/57176e7c-dbb9-4152-a2af-514d44cd0bd6)
 
+# Routing
 
-
-
+"run_routing" command is used for routing
 
 
 
